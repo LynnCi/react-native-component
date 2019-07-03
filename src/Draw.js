@@ -26,7 +26,7 @@ export default class App extends Component{
                 menu={menu} //抽屉内组件
                 isOpen={this.state.isOpen} //抽屉状态 打开or关闭
                 openMenuOffset={width/2} //抽屉宽度
-                hiddenMenuOffset={0} //抽屉关闭时显示的宽度
+                hiddenMenuOffset={10} //抽屉关闭时显示的宽度
                 edgeHitWidth={60} //距离屏幕多少距离可以滑出抽屉，默认60
                 disableGestures={false} //是否禁用手势滑动 默认false 允许手动滑动
                 onChange={ //抽屉状态变化监听函数
